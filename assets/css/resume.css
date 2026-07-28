@@ -967,3 +967,14 @@ html[data-cv-theme="dark"] .cv-contact > span:last-child{color:var(--cv-text)}
   .cv-top > .cv-controls .cv-language__menu{padding:3px}
   .cv-top > .cv-controls .cv-language__button{width:30px;height:34px;font-size:10px}
 }
+
+html,body{
+  margin:0;
+  padding:0;
+  width:100%;
+  min-height:100%;
+}
+
+body{
+  overflow-x:hidden;
+}

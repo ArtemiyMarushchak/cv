@@ -745,9 +745,6 @@ html[data-cv-theme="dark"] .cv-theme__icon--sun{display:block}
 
 .cv-case-modal__mount{width:100%;min-height:100%}
 .cv-case-modal__mount > *{width:100% !important;max-width:none !important;margin:0 !important}
-.cv-case-modal .ff-wrap,
-.cv-case-modal .kquiz__form{width:100% !important;max-width:none !important;margin:0 !important}
-.cv-case-modal .ff-grid{grid-template-columns:minmax(0,1.15fr) minmax(380px,.85fr) !important}
 
 
 .cv-resume,
@@ -798,7 +795,6 @@ html[data-cv-theme="dark"] .cv-contact > span:last-child{color:var(--cv-text)}
   .cv-two-col{grid-template-columns:1fr}
   .cv-cases{grid-template-columns:repeat(2,minmax(0,1fr))}
   .cv-value{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .cv-case-modal .ff-grid{grid-template-columns:1fr !important}
 }
 
 @media(max-width:700px){
@@ -958,9 +954,6 @@ html[data-cv-theme="dark"] .cv-contact > span:last-child{color:var(--cv-text)}
   .cv-role{font-size:13px}
   .cv-facts{grid-template-columns:1fr}
   .cv-fact:last-child{grid-column:auto}
-}
-
-@media(max-width:430px){
   .cv-top > .cv-controls{top:16px;right:16px;gap:5px}
   .cv-top > .cv-controls .cv-theme__button{width:40px;height:40px;border-radius:12px}
   .cv-top > .cv-controls .cv-theme__icon{width:19px;height:19px}
